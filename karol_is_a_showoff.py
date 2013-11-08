@@ -11,3 +11,5 @@ for c in open(input('fn? '),'r').read():
  y[2]+=c.isdigit() 
  y[3]+=c.isspace()
 print(y)
+
+print('No, really, he is.')
