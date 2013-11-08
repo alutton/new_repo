@@ -6,10 +6,7 @@ print(''.join(['9' if x in 'Zz' else str(int((ord(x.upper()) - ord('A'))/3) + 2)
 
 y=[0]*4
 for c in open(input('fn? '),'r').read():
- y[0]+=c.isupper()
- y[1]+=c.islower()
- y[2]+=c.isdigit() 
- y[3]+=c.isspace()
+ # Garbage
 print(y)
 
 print('No, really, he is.')
